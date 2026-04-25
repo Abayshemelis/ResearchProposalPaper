@@ -73,7 +73,7 @@ To enhance performance:
 ## 🧠 System Architecture Overview
 
 <p align="center">
-  <img src="images/Architecture.png" width="950"/>
+  <img src="/images/Architechture.png" width="950"/>
 </p>
 
 <p align="center" style="font-size:14px;">
