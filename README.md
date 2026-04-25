@@ -57,20 +57,15 @@ To enhance performance:
 ---
 
 ## 🧠 System Architecture
+<p align="center">
+  <img src="images/systemArchitecture.png" width="950"/>
+</p>
 
-```text
-[ HTTP Traffic ]
-        ↓
-[ Preprocessing ]
-(Tokenization + Normalization)
-        ↓
-[ CNN + LSTM Model ]
-        ↓
-[ SHAP Explainability Layer ]
-        ↓
-[ Threat Detection Output ]
-```
+<p align="center" style="font-size:14px;">
+
 ## 🧠 System Architecture Overview
+
+
 
 <p align="center">
   <img src="/images/Architechture.png" width="950"/>
