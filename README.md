@@ -70,7 +70,15 @@ To enhance performance:
         ↓
 [ Threat Detection Output ]
 ```
+## 🧠 System Architecture Overview
 
+<p align="center">
+  <img src="Architecture.png" width="950"/>
+</p>
+
+<p align="center" style="font-size:14px;">
+Figure 1: Proposed CNN-LSTM based Web Application Security Architecture with Explainable AI Layer
+</p>
 ---
 
 ## 🛠️ Tools & Technologies
