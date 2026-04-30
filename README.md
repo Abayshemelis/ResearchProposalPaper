@@ -14,14 +14,12 @@
 ---
 
 ## 📌 Abstract
-This project proposes an AI-enhanced Web Application Firewall (WAF) designed to detect and mitigate modern web application threats such as SQL Injection (SQLi), Cross-Site Scripting (XSS), and zero-day attacks.
-
-Traditional security systems rely on static signature-based detection methods, which are ineffective against rapidly evolving and obfuscated attack patterns.
-
-To address this limitation, this research implements a deep learning-based hybrid architecture combining Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) for intelligent threat detection.
-
-The system is trained using the SR-BH 2020 multi-label dataset from IEEE DataPort, which contains real-world HTTP traffic labeled according to CAPEC attack patterns.
-
+Traditional signature-based Web Application Firewalls (WAFs) fail to detect zero-day and polymorphic web attacks, while existing AI solutions lack explainability and real time performance. This research proposes a hybrid CNN-LSTM architecture with out-of band SHAP-based Explainable AI (XAI) to detect SQLi and XSS attacks. The system
+will preprocess HTTP traffic using Byte Pair Encoding (BPE) and classify requests with
+sub-60ms latency. Using the SR-BH 2020 dataset from IEEE DataPort, the model will
+be evaluated on Accuracy, F1-Score, and False Positive Rate (target <1%). The expected
+outcome is a transparent, low-latency detection framework achieving F1-Score ≥95%.
+Keywords: Web Security, CNN-LSTM, SHAP, XAI, Threat Detection
 To handle class imbalance, the dataset is improved using **SMOTE (Synthetic Minority Over-sampling Technique)**.
 
 Additionally, **Explainable AI (SHAP)** is used to interpret model decisions and improve trust.
